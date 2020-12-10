@@ -1,0 +1,109 @@
+@media  screen and (max-width: 1440px){
+  body{
+    background: #faf7f7;
+  }
+  a{
+    color: #7ed56f;
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font-size: 35px;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5rem;
+  }
+  
+  .div1{
+    margin-top: 5%;
+    margin-left: 82px;
+    font-family: 'Lato',sans-serif;
+    color:#777777;
+    font-weight: 600;
+    font-size: smaller;
+    font-style: normal;
+    line-height: 250%;
+    width: 45%;
+  }
+  
+
+  
+  .img1{
+    position: absolute; 
+    left: 700px;
+    top: 190px;
+    z-index: -1;
+    box-shadow: 5px 5px 20px;
+  }
+  .img2{
+    position: absolute; 
+    left: 950px;
+    top: 240px;
+    z-index: 2;
+    box-shadow: 5px 5px 20px;
+  }
+  .img3{
+    position: absolute; 
+    left: 800px;
+    top: 300px;
+    z-index: 3;
+    box-shadow: 5px 5px 20px;
+  }
+}
+@media  screen and (max-width:375px){
+  body{
+   background: #faf7f7;
+ }
+ a{
+   color: #7ed56f;
+ }
+   h1{
+     text-align: center;
+     margin-bottom: 60px;
+     margin-top: 60px;
+     font-size: 10px;
+     background-image: linear-gradient(to right, #7ed56f, #28b485);
+     -webkit-background-clip: text;
+    background-clip: text;
+     font-weight: 400;
+     font-family: 'Lato', sans-serif;
+     letter-spacing: 0.2rem;
+   }
+   .div1{
+     margin-top: 5%;
+     margin-left: 25px;
+     font-family: 'Lato',sans-serif;
+     color:#777777;
+     font-weight: 600;
+     font-size:8px;
+     font-style: normal;
+     line-height: 250%;
+     width:80%
+   }
+   .img1{
+     position: absolute; 
+     left: 238px;
+     top: 430px;
+     width:6.7rem;
+     box-shadow: 5px 5px 20px;
+   }
+   .img2{
+     position: absolute; 
+     left: 35px;
+     top: 430px;
+     width:6.7rem;
+     box-shadow: 5px 5px 20px;
+   }
+   .img3{
+     position: absolute; 
+     left: 133px;
+     top: 420px;
+     width:7rem;
+     box-shadow: 5px 5px 20px;
+   }
+ }
